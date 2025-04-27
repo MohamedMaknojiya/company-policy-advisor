@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore model files and embeddings
+cached_docs/
+policy_data/
+models/
+vectorstore/
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# MacOS specific
+.DS_Store
+
+# Ollama or local model caches
+*.gguf
+*.bin
+*.ckpt
+*.safetensors
